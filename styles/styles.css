@@ -2,7 +2,7 @@ body {
     text-align: center;
   }
 
-  nav {
+  nav, footer {
     background-color: steelblue;
     padding: 10px;
   }
@@ -21,10 +21,6 @@ body {
   }
   p {
     padding: 10px;
-  }
-  footer {
-    background-color: steelblue;
-    color: white;
   }
   .main-para {
     font-size: 1.5em;
