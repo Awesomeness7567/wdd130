@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav a {
     text-align: center;
     text-decoration: none;
@@ -70,4 +71,77 @@ footer p {
 }  
 footer p a:hover {
     text-decoration: underline;
-} 
+=======
+nav a {
+    text-align: center;
+    text-decoration: none;
+  }
+#hero-msg h1 {
+    text-align: center;
+}
+ #hero-msg h4 {
+    text-align: center;
+ }
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+div content {
+    max-width: 1600px;
+}
+#background {
+    height: 725px;
+}
+.icon {
+    width: 80px;
+}
+image {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+#logo-img {
+    width: 80px;
+}
+body {
+    background-color: aliceblue; 
+}
+header {
+    background-color:rgb(142, 193, 255);
+}
+nav a:hover {
+    background-color: white;
+}
+.book {
+    background-color: aliceblue;
+    text-decoration: none;
+}
+.join {
+    background-color: aliceblue;
+    text-decoration: none;
+}
+.book:hover {
+    background-color:aquamarine
+}
+.join:hover {
+    background-color: aquamarine;
+}
+#background {
+    background-color:rgb(142, 193, 255);
+}
+.msg {
+    background-color: rgb(142, 193, 255);
+}
+footer {
+    background-color: rgb(142, 193, 255);
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}  
+footer p a:hover {
+    text-decoration: underline;
+>>>>>>> 593980e9606f2494ae14209b44b344b320c3d8b8
