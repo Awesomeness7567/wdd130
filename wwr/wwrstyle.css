@@ -33,7 +33,11 @@ image {
     width: 80px;
 }
 body {
-    background-color: aliceblue; 
+    background-color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgb(142, 193, 255);
@@ -44,10 +48,16 @@ nav a:hover {
 .book {
     background-color: aliceblue;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: aliceblue;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color:aquamarine
@@ -74,6 +84,7 @@ footer p a:hover {
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
   }
 #hero-msg h1 {
     text-align: center;
@@ -95,6 +106,7 @@ div content {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 image {
     width: 80px;
@@ -117,10 +129,12 @@ nav a:hover {
 .book {
     background-color: aliceblue;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .join {
     background-color: aliceblue;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .book:hover {
     background-color:aquamarine
@@ -133,14 +147,53 @@ nav a:hover {
 }
 .msg {
     background-color: rgb(142, 193, 255);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: rgb(142, 193, 255);
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
 }  
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+footer.social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.home-title {
+    margin-top: 10px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
