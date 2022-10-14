@@ -165,7 +165,8 @@ footer p a:hover {
     text-decoration: underline;
 }
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;    font-size: 2em;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
     margin-top: 10px;
 }
 .msg p {
