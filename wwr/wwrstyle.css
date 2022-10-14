@@ -91,7 +91,6 @@ nav a {
 }
  #hero-msg h4 {
     text-align: center;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
  }
 .button-box {
     text-align: center;
@@ -163,9 +162,10 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-.home-title {
+h1.home-title {
     font-size: 2em;
     margin-top: 10px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
 .msg p {
     font-size: .8em;
