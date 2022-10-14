@@ -164,7 +164,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-h1.home-title {
+h1 {
     font-size: 2em;
     margin-top: 10px;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
