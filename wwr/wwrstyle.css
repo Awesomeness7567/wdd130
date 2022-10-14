@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 nav a {
     text-align: center;
@@ -167,7 +167,7 @@ footer p a:hover {
 h1.home-title {
     font-size: 2em;
     margin-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
 .msg p {
     font-size: .8em;
@@ -198,5 +198,5 @@ main section img {
     box-sizing: border-box;
 }
 h4 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
