@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 nav a {
     text-align: center;
     text-decoration: none;
@@ -165,7 +167,7 @@ footer p a:hover {
 h1.home-title {
     font-size: 2em;
     margin-top: 10px;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .msg p {
     font-size: .8em;
@@ -194,4 +196,7 @@ footer.social img {
 }
 main section img {
     box-sizing: border-box;
+}
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
