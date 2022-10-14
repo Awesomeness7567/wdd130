@@ -168,6 +168,7 @@ h1 {
     font-size: 2em;
     margin-top: 10px;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    text-emphasis-color: rgb(142, 193, 255);
 }
 .msg p {
     font-size: .8em;
@@ -196,7 +197,4 @@ footer.social img {
 }
 main section img {
     box-sizing: border-box;
-}
-h4 {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
 }
