@@ -3,12 +3,14 @@
 nav a {
     text-align: center;
     text-decoration: none;
+    padding: 35px;
   }
 #hero-msg h1 {
     text-align: center;
 }
  #hero-msg h4 {
     text-align: center;
+    color: white;
  }
 .button-box {
     text-align: center;
@@ -21,9 +23,13 @@ div content {
 }
 #background {
     height: 725px;
+    background-color:rgb(142, 193, 255);
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 image {
     width: 80px;
@@ -43,6 +49,8 @@ body {
 }
 header {
     background-color:rgb(142, 193, 255);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover {
     background-color: white;
@@ -53,6 +61,7 @@ nav a:hover {
     font-size: 18px;
     margin-top: 50px;
     border-radius: 5px;
+    padding: 15px 30px;
 }
 .join {
     background-color: aliceblue;
@@ -60,6 +69,7 @@ nav a:hover {
     font-size: 18px;
     margin-top: 50px;
     border-radius: 5px;
+    padding: 15px 30px;
 }
 .book:hover {
     background-color:aquamarine
@@ -67,102 +77,28 @@ nav a:hover {
 .join:hover {
     background-color: aquamarine;
 }
-#background {
-    background-color:rgb(142, 193, 255);
-}
 .msg {
     background-color: rgb(142, 193, 255);
-}
-footer {
-    background-color: rgb(142, 193, 255);
-    text-decoration: none;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer p {
     font-size: 1.2em;
 }  
 footer p a:hover {
     text-decoration: underline;
-}
-nav a {
-    text-align: center;
-    text-decoration: none;
-    padding: 35px;
-  }
-#hero-msg h1 {
-    text-align: center;
-}
- #hero-msg h4 {
-    text-align: center;
- }
-.button-box {
-    text-align: center;
-}
-main section {
-    text-align: center;
-}
-div content {
-    max-width: 1600px;
-}
-#background {
-    height: 725px;
-}
-.icon {
-    width: 80px;
-    padding-top: 10px;
-}
-image {
-    width: 80px;
-}
-#hero-img {
-    width: 100%;
-}
-#logo-img {
-    width: 80px;
-}
-body {
-    background-color: aliceblue; 
-}
-header {
-    background-color:rgb(142, 193, 255);
-}
-nav a:hover {
-    background-color: white;
-}
-.book {
-    background-color: aliceblue;
-    text-decoration: none;
-    padding: 15px 30px;
-}
-.join {
-    background-color: aliceblue;
-    text-decoration: none;
-    padding: 15px 30px;
-}
-.book:hover {
-    background-color:aquamarine
-}
-.join:hover {
-    background-color: aquamarine;
-}
-#background {
-    background-color:rgb(142, 193, 255);
-}
-.msg {
-    background-color: rgb(142, 193, 255);
-    line-height: 1.5em;
-    padding: 35px;
 }
 footer {
     background-color: rgb(142, 193, 255);
     text-decoration: none;
     padding: 25px 50px;
     margin-top: 200px;
-}
-footer p {
-    font-size: 1.2em;
-}  
-footer p a:hover {
-    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 h1 {
     font-size: 2em;
@@ -182,19 +118,102 @@ footer.social img {
 }
 #logo_link {
     padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .rivers-card {
     margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 .camping-card {
     margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
 }
 .rapids-card {
     margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 .card-img {
     border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
 }
 main section img {
     box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    margin-top: 100px;
+    z-index: -1;
+}
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
